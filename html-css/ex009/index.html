@@ -3,30 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem javascript</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número'))
-    if num % 2 == 0:
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é ÍMPAR)
-    print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações simples</h2>
-    <p>Como diria um pai de um amigo: <q>o computador é um burro muito rápido</q></p>
-    <h2>Citações completas</h2>
-    <p>Segundo Rudy Albino noseu livro A Espiritualidade dos leigos:</p>
-    <blockquote cite="https://www.google.com.br/books/edition/A_Espiritualidade_dos_leigos/_GjqDwAAQBAJ?hl=pt-BR&gbpv=0">
-        Esta obra é um guia de leitura do magistério da Igreja que, sobretudo desde o Vaticano II, tem falado com insistência de uma espiritualidade dos leigos.
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascadind Style Sheets">CSS</abbr>. Estou adorando.</p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Ligar pra mãe</li>
+        <li>Tomar Café</li>
+        <li>Escovar os Dentes</li>
+        <li>Ir à faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o Trabalho</li>
+        <li>Voltar para Casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="disc">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+    </ul>
+    <h2>Linguagens Favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>Dart</li>
+        </ol>
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul>
+            <li>Mario Bros</li>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul>
+            <li>Alladin</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>Gameboy</li>
+        <ul>
+            <li>Pokémon</li>
+            <li>Naruto</li>
+        </ul>
+        <li>Playstation</li>
+        <ul>
+            <li>Crash Bandicoot</li>
+            <li>God of War</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definição</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação de conteúdo</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação de design</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para interatividade</dd>
+    </dl>
 </body>
 </html>
